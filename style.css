@@ -1,0 +1,457 @@
+body {
+    margin: 0%;
+    padding: 0%;
+}
+
+/* nav styling here  */
+#section1 {
+    display: flex;
+}
+
+#div1 {
+    display: flex;
+    margin-left: 2%;
+    margin-top: 1%;
+}
+
+#div1 div {
+    margin: 0px 1%;
+}
+
+#div2 {
+    display: flex;
+    margin-left: 30%;
+    margin-top: 2%;
+}
+
+#div2 li {
+    list-style: none;
+    margin: 2%;
+    font-size: 20px;
+}
+
+/* nav responsive start here  */
+@media only screen and (max-width : 700px) {
+    #section1 {
+        flex-direction: column;
+    }
+
+    #div1 {
+        margin: 0% auto;
+    }
+
+    #div2 {
+        flex-direction: column;
+        margin: 0% auto;
+
+    }
+
+    #div2 li {
+        flex-direction: column;
+        padding: 4%;
+        font-size: 23px;
+        float: left;
+    }
+}
+
+/* nav reponsive end here  */
+/* content styling start here  */
+#section2 {
+    background-image: url('content.jpg');
+}
+
+#content {
+    margin: 1%;
+    height: 45vh;
+    padding: 12%;
+}
+
+.btn {
+    background-color: rgb(70 174 211);
+
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    width: 11%;
+    height: 13%;
+
+}
+
+/* content  responsive start here  */
+@media only screen and (max-width: 700px) {}
+
+/* section 3 styling start here  */
+
+#section3 {
+    background-color: #dddddd;
+
+    display: flex;
+    justify-content: center;
+    margin-top: 1%;
+}
+
+#dldiv {
+    width: 60%;
+    margin: 5% 5%;
+}
+#dldiv h1{
+    font-size: 25px;
+}
+
+#dl1div {
+    width: 30%;
+    margin-top: 8%;
+    margin-left: 5%;
+}
+
+#dl1div #sec__btn {
+    background-color: rgb(70 174 211);
+
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    width: 40%;
+    height: 36%;
+    font-size: 18px;
+}
+
+/* section 3 styling end here  */
+#section04{
+    width: 100%;
+    height: auto;
+    background-color: #dddddd;
+
+}
+#section4hd {
+    text-align: center;
+    margin-top: 0px;
+}
+
+#section4hd h1 {
+    font-size: 28px;
+
+}
+
+#section4div {
+    display: flex;
+    justify-content: center;
+    margin: 2%;
+}
+
+#sectdiv1 img {
+    width: 80%;
+}
+
+#sectdiv2 {
+    list-style: none;
+    margin-left: 0px;
+}
+
+#sectdiv2 li {
+    margin: 10% 0%;
+}
+
+/* ==================service__section__stsrt==================== */
+#section5 {
+    width: 100%;
+    height: 100vh;
+}
+
+#servicesdiv {
+    width: 50%;
+    margin: 0 auto;
+    height: auto;
+    padding: 10px;
+    text-align: center;
+}
+
+#sectionflex {
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box {
+    width: 30%;
+    height: 70vh;
+}
+
+.box__one {
+    width: 100%;
+    height: 50%;
+    margin-top: 0%;
+}
+
+.box__one1 {
+    display: flex;
+}
+
+.box__img img {
+    margin: 20% 4%;
+    width: 80px;
+    height: 80px;
+}
+
+.box__one2 {
+    display: flex;
+
+}
+
+.box__img1 img {
+    margin: 20% 4%;
+    width: 80px;
+    height: 80px;
+}
+
+.box__two {
+    width: 100%;
+    height: 50%;
+    margin-top: 0%;
+}
+
+.box__two {
+    display: flex;
+}
+
+.box__img2 img {
+    margin: 20% 4%;
+    width: 80px;
+    height: 80px;
+}
+
+.box__two2 {
+    display: flex;
+}
+
+.box__img3 img {
+    margin: 20% 4%;
+    width: 80px;
+    height: 80px;
+}
+
+.box__three {
+    display: flex;
+
+}
+
+.box__three {
+    width: 100%;
+    height: 50%;
+    margin-top: 0%;
+}
+
+.box__img4 img {
+    margin: 20% 4%;
+    width: 80px;
+    height: 80px;
+}
+
+.box__img5 img {
+    margin: 20% 4%;
+    width: 90px;
+    height: 90px;
+}
+
+.box__three2 {
+    display: flex;
+
+}
+
+/* ==============our section styling start here==============  */
+.work {
+    width: 100%;
+    height: auto;
+}
+
+.work__head {
+    text-align: center;
+    width: 50%;
+    margin-left: 25%;
+
+}
+
+.work__nav {
+    background-color: #e7e7e7;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 76%;
+    margin-left: 10%;
+}
+
+.work__nav li {
+    padding: 1%;
+    font-size: 17px;
+}
+
+.work__nav__li {
+    background-color: rgb(70 174 211);
+
+    margin-left: 0px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 25%;
+    padding: 0px;
+    height: auto;
+    color: white;
+
+}
+
+.work__images {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    height: auto;
+    margin: 0% 10%;
+    margin-top: 5%;
+    margin-bottom: 1%;
+}
+
+.img__section {
+    width: 250px;
+    height: auto;
+    margin: 11px;
+}
+
+/* ==============our section styling end here==============  */
+
+/* =================our  work section styling start here =========== */
+.ourwork {
+    background-color: #dddddd;
+    width: 100%;
+    height: auto;
+    margin-top: -1%;
+}
+
+.ourwork__head {
+    width: 50%;
+    margin-top: 4%;
+    height: auto;
+    text-align: center;
+    margin: 2% 25%;
+}
+
+.ourwork__body {
+    width: 90%;
+    height: auto;
+    margin: 0% 5%;
+    display: flex;
+    justify-content: center;
+}
+
+.ourwork__body__one {
+    width: 80%;
+    height: auto;
+    margin: 3%;
+}
+
+.video {
+    border: 2px solid black;
+    height: 80%;
+    background-color: black;
+}
+
+.check__box {
+    display: flex;
+    justify-content: space-between;
+    /* margin: 1%; */
+}
+
+.check__box__one {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+    margin: 10% 0%;
+    padding: 1%;
+
+}
+
+.check__box__one label {
+    font-size: 18px;
+}
+
+.check__box__btn button {
+    width: 20%;
+    padding: 1%;
+    color: white;
+    font-size: 18px;
+    /* background-color: rgb(102, 102, 223); */
+    border: none;
+    background-color: rgb(70 174 211);
+
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+/* =================our  work section styling end here =========== */
+/* =================our  procezs section styling end here =========== */
+.our__process{
+    width: 100%;
+    height: auto;
+    background-color: #21232f;
+    color: white;
+    margin: 5% 0%;
+}
+.our__process__head{
+    width: 50%;
+    /* margin-top: %; */
+    margin: 0% 25%;
+    text-align: center;
+}
+
+.our__process__img{
+    width: 80%;
+    margin: 5% 10%;
+    display: flex;
+    justify-content: center;
+
+    /* opacity: 0.4; */
+}
+.our__process__img div{
+  margin: 0% 4%;
+}
+/* =================our  process section styling end here =========== */
+/* =================LARGEST BLOG section styling START here =========== */
+.largest__blog{
+    width: 100%;
+    height: auto;
+}
+.largest__blog__head{
+    width: 50%;
+    margin: 0% 25%;
+    text-align: center;
+}
+.largest__blog__content{
+    display: flex;
+    width: 80%;
+    margin: 5% 10%;
+}
+.largest__blog__content div{
+ margin: 3%;
+}
+
+/* =================LARGEST BLOG section styling end here =========== */
+/* =================GET IN TOUCH section styling start here =========== */
+.get__in__touch{
+    width: 100%;
+    height: 40vh;
+    
+    background-color: rgb(70 174 211);
+
+}
+.get__in__touch__head{
+    width: 50%;
+/* background-color: blue; */
+    color: white;
+    /* margin-top: 12px; */
+/* align-items: center; */
+    margin: 0% 25%;
+    /* margin-top: 10%; */
+}
+/* =================GET IN TOUCH section styling end here =========== */
